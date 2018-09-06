@@ -3,7 +3,7 @@ import {render} from 'react-dom' // Permite agregar los componentes en algún lu
 import Home from '../pages/containers/home.jsx'
 import data from '../api.json'
 
-const app = document.getElementById('app') // Se trae el elemento donde se va a renderizar
+const app = document.getElementById('home-container') // Se trae el elemento donde se va a renderizar
 
 render(
     <Home data={data}/>
